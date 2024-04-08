@@ -1,0 +1,721 @@
+{
+        "messageId": "12876bd0-c211-49c3-ade1-ee755cfc7525",
+        "vin": "WDD2130481A123456",
+        "timestamp": 1592853849159,
+        "messageType": "vehiclesignal",
+        "version": "1",
+        "serviceId": "1001",
+        "sendingBehaviour": "ON_INTERVAL_120_SEC",
+        "data": {
+            "signals": [
+            {
+                "name": "AntiTheftSystem.Alarm.IsActive",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "AntiTheftSystem.Alarm.IsTriggered",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "AntiTheftSystem.LastTheftWarning.Reason",
+                "timestamp": 1592853849159,
+                "value": "BASIC",
+                "type": "string"
+            },
+            {
+                "name": "AntiTheftSystem.ProtectionSensors.InteriorProtection.IsActive",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "AntiTheftSystem.ProtectionSensors.InteriorProtection.IsTriggered",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "AntiTheftSystem.ProtectionSensors.TowProtection.IsActive",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "AntiTheftSystem.ProtectionSensors.TowProtection.IsTriggered",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Brakes.Brakefluid.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Brakes.Brakepads.PreWarning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Brakes.Brakepads.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Brakes.Parkbrake.IsEngaged",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Front.Left.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Front.Left.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Front.Right.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Front.Right.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Rear.Left.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Rear.Left.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Rear.Right.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Rear.Right.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Rooftop.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Sunroof.Event",
+                "timestamp": 1592853849159,
+                "value": "NONE",
+                "type": "string"
+            },
+            {
+                "name": "Doors.Sunroof.Status",
+                "timestamp": 1592853849159,
+                "value": "TILT-SLIDE-ROOF_CLOSED",
+                "type": "string"
+            },
+            {
+                "name": "Doors.Tankcap.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Trunk.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Trunk.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Doors.Vehicle.IsLocked",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Driving.Consumption.Electrical.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "512.21",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Consumption.Electrical.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "512.21",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Consumption.Fuel.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "5.37",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Consumption.Fuel.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "5.37",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.Electrical.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "15.42",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.Electrical.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "15.42",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.Fuel.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "15.42",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.Fuel.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "15.42",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.ZeroEmissions.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "5.37",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Distance.ZeroEmissions.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "5.37",
+                "type": "double"
+            },
+            {
+                "name": "Driving.EcoScore.Acceleration",
+                "timestamp": 1592853849159,
+                "value": "63",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.EcoScore.BonusRange",
+                "timestamp": 1592853849159,
+                "value": "63.1",
+                "type": "double"
+            },
+            {
+                "name": "Driving.EcoScore.Constancy",
+                "timestamp": 1592853849159,
+                "value": "63",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.EcoScore.Freewheel",
+                "timestamp": 1592853849159,
+                "value": "63",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Odometer.Lifetime",
+                "timestamp": 1592853849159,
+                "value": "112",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Range.AdBlue",
+                "timestamp": 1592853849159,
+                "value": "75",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Range.Electrical",
+                "timestamp": 1592853849159,
+                "value": "187",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Range.Electrical.Max",
+                "timestamp": 1592853849159,
+                "value": "187",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Range.Fuel",
+                "timestamp": 1592853849159,
+                "value": "92",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Range.Fuel.Warning",
+                "timestamp": 1592853849159,
+                "value": "false",
+                "type": "boolean"
+            },
+            {
+                "name": "Driving.Speed.Current",
+                "timestamp": 1592853849159,
+                "value": "120.8",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Speed.SinceReset.Average",
+                "timestamp": 1592853849159,
+                "value": "120.8",
+                "type": "double"
+            },
+            {
+                "name": "Driving.Speed.SinceStart.Average",
+                "timestamp": 1592853849159,
+                "value": "120.8",
+                "type": "double"
+            },
+            {
+                "name": "Driving.StateOfCharge.Departure",
+                "timestamp": 1592853849159,
+                "value": "31",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Time.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "15",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Time.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "15",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Time.ZeroEmissions.SinceReset",
+                "timestamp": 1592853849159,
+                "value": "15",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Time.ZeroEmissions.SinceStart",
+                "timestamp": 1592853849159,
+                "value": "15",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Latitude.NegativeAccelerationOutliers",
+                "timestamp": 1592853849159,
+                "value": "6120",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Latitude.PositiveAccelerationOutliers",
+                "timestamp": 1592853849159,
+                "value": "13560",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Latitude.RegularAccelerations",
+                "timestamp": 1592853849159,
+                "value": "580320",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Longitude.NegativeAccelerationOutliers",
+                "timestamp": 1592853849159,
+                "value": "6120",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Longitude.PositiveAccelerationOutliers",
+                "timestamp": 1592853849159,
+                "value": "13560",
+                "type": "integer"
+            },
+            {
+                "name": "Driving.Acceleration.Longitude.RegularAccelerations",
+                "timestamp": 1592853849159,
+                "value": "580320",
+                "type": "integer"
+            },
+            {
+                "name": "ElectricalDrive.Charging.ACCoupler.Status",
+                "timestamp": 1592853849159,
+                "value": "CABLE_PLUGGED_BOTH_SIDES",
+                "type": "string"
+            },
+            {
+                "name": "ElectricalDrive.Charging.DCCoupler.Status",
+                "timestamp": 1592853849159,
+                "value": "CABLE_PLUGGED_BOTH_SIDES",
+                "type": "string"
+            },
+            {
+                "name": "ElectricalDrive.Charging.EndOfChargingTime",
+                "timestamp": 1592853849159,
+                "value": "130",
+                "type": "integer"
+            },
+            {
+                "name": "ElectricalDrive.Charging.EndOfChargingTimeWeekday",
+                "timestamp": 1592853849159,
+                "value": "MONDAY",
+                "type": "string"
+            },
+            {
+                "name": "ElectricalDrive.Charging.IsActive",
+                "timestamp": 1592853849159,
+                "value": "false",
+                "type": "boolean"
+            },
+            {
+                "name": "ElectricalDrive.Charging.Power",
+                "timestamp": 1592853849159,
+                "value": "122.4",
+                "type": "double"
+            },
+            {
+                "name": "ElectricalDrive.Charging.SmartCharging.Status",
+                "timestamp": 1592853849159,
+                "value": "WALLBOX",
+                "type": "string"
+            },
+            {
+                "name": "ElectricalDrive.Charging.Status",
+                "timestamp": 1592853849159,
+                "value": "CHARGING",
+                "type": "string"
+            },
+            {
+                "name": "ElectricalDrive.HighVoltageBattery.StateOfCharge",
+                "timestamp": 1592853849159,
+                "value": "31",
+                "type": "integer"
+            },
+            {
+                "name": "Ignition.Status",
+                "timestamp": 1592853849159,
+                "value": "LOCK",
+                "type": "string"
+            },
+            {
+                "name": "Immobilizer.Keys.AllDeprovisioned",
+                "timestamp": 1592853849159,
+                "value": "false",
+                "type": "boolean"
+            },
+            {
+                "name": "InternalCombustionEngine.Coolant.Level.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "InternalCombustionEngine.Coolant.Temperature",
+                "timestamp": 1592853849159,
+                "value": "16",
+                "type": "integer"
+            },
+            {
+                "name": "InternalCombustionEngine.LimpMode.IsActive",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "InternalCombustionEngine.Oil.Level",
+                "timestamp": 1592853849159,
+                "value": "105",
+                "type": "integer"
+            },
+            {
+                "name": "InternalCombustionEngine.Oil.Level.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Lights.Interior.Front.IsOn",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Lights.Interior.Readinglamp.Front.Left.IsOn",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Lights.Interior.Readinglamp.Front.Right.IsOn",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Lights.Interior.Rear.IsOn",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Lights.Lightswitch.Status",
+                "timestamp": 1592853849159,
+                "value": "AUTO",
+                "type": "string"
+            },
+            {
+                "name": "Parking.Parkevent.LastParkevent.Time",
+                "timestamp": 1592853849159,
+                "value": 1592853849159,
+                "type": "integer"
+            },
+            {
+                "name": "Parking.Parkevent.Level",
+                "timestamp": 1592853849159,
+                "value": "LOW",
+                "type": "string"
+            },
+            {
+                "name": "Parking.Parkevent.Type",
+                "timestamp": 1592853849159,
+                "value": "IDLE",
+                "type": "string"
+            },
+            {
+                "name": "Position.LastKnown.Heading",
+                "timestamp": 1592853849159,
+                "value": "14.12",
+                "type": "double"
+            },
+            {
+                "name": "Position.LastKnown.Latitude",
+                "timestamp": 1592853849159,
+                "value": "-30.12",
+                "type": "double"
+            },
+            {
+                "name": "Position.LastKnown.Longitude",
+                "timestamp": 1592853849159,
+                "value": "-30.12",
+                "type": "double"
+            },
+            {
+                "name": "Preconditioning.ScheduledTime",
+                "timestamp": 1592853849159,
+                "value": "144",
+                "type": "integer"
+            },
+            {
+                "name": "Preconditioning.IsActive",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Preconditioning.RemainingRuntime",
+                "timestamp": 1592853849159,
+                "value": "1",
+                "type": "integer"
+            },
+            {
+                "name": "Service.Interval.Distance",
+                "timestamp": 1592853849159,
+                "value": "-230",
+                "type": "integer"
+            },
+            {
+                "name": "Service.Interval.Time",
+                "timestamp": 1592853849159,
+                "value": "-230",
+                "type": "integer"
+            },
+            {
+                "name": "Seat.Seatbelt.Front.Left.IsBuckledUp",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "SupplyBattery.Status",
+                "timestamp": 1592853849159,
+                "value": "GREEN",
+                "type": "string"
+            },
+            {
+                "name": "SupplyBattery.Voltage",
+                "timestamp": 1592853849159,
+                "value": "12.8",
+                "type": "double"
+            },
+            {
+                "name": "SupplyBattery.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tank.AdBlue.Level",
+                "timestamp": 1592853849159,
+                "value": "10",
+                "type": "integer"
+            },
+            {
+                "name": "Tank.Fuel.Level",
+                "timestamp": 1592853849159,
+                "value": "10",
+                "type": "integer"
+            },
+            {
+                "name": "Tank.Fuel.Level.Absolute",
+                "timestamp": 1592853849159,
+                "value": "0",
+                "type": "integer"
+            },
+            {
+                "name": "Tank.Fuel.Level.Warning",
+                "timestamp": 1592853849159,
+                "value": "false",
+                "type": "boolean"
+            },
+            {
+                "name": "Tank.WashWater.Level.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tires.Front.Left.Pressure",
+                "timestamp": 1592853849159,
+                "value": "255.1",
+                "type": "double"
+            },
+            {
+                "name": "Tires.Front.Left.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tires.Front.Left.Warning.Status",
+                "timestamp": 1592853849159,
+                "value": "NONE",
+                "type": "string"
+            },
+            {
+                "name": "Tires.Front.Right.Pressure",
+                "timestamp": 1592853849159,
+                "value": "255.1",
+                "type": "double"
+            },
+            {
+                "name": "Tires.Front.Right.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tires.Front.Right.Warning.Status",
+                "timestamp": 1592853849159,
+                "value": "NONE",
+                "type": "string"
+            },
+            {
+                "name": "Tires.Rear.Left.Pressure",
+                "timestamp": 1592853849159,
+                "value": "255.1",
+                "type": "double"
+            },
+            {
+                "name": "Tires.Rear.Left.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tires.Rear.Left.Warning.Status",
+                "timestamp": 1592853849159,
+                "value": "NONE",
+                "type": "string"
+            },
+            {
+                "name": "Tires.Rear.Right.Pressure",
+                "timestamp": 1592853849159,
+                "value": "255.1",
+                "type": "double"
+            },
+            {
+                "name": "Tires.Rear.Right.Warning",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Tires.Rear.Right.Warning.Status",
+                "timestamp": 1592853849159,
+                "value": "NONE",
+                "type": "string"
+            },
+            {
+                "name": "Vehicle.Clock.Time.UTC.Offset",
+                "timestamp": 1592853849159,
+                "value": "3600000",
+                "type": "integer"
+            },
+            {
+                "name": "Windows.Front.Left.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Windows.Front.Right.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Windows.Rear.Left.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            },
+            {
+                "name": "Windows.Rear.Right.IsOpen",
+                "timestamp": 1592853849159,
+                "value": "true",
+                "type": "boolean"
+            }
+            ]
+        }
+        }

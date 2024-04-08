@@ -1,0 +1,84 @@
+.
+├── config
+│   ├── __init__.py
+│   ├── fleet_to_uuid.yml
+│   ├── sources
+│   │   ├── __init__.py
+│   │   ├── source_A.yml
+│   │   ├── source_B.yml
+│   │   └── source_C.yml
+│   ├── sources.yml
+│   ├── target_schemas
+│   │   ├── __init__.py
+│   │   ├── product1.yml
+│   │   └── product2.yml
+│   └── vehicle_to_fleet.yml
+├── data
+│   ├── source_A
+│   │   ├── data.json
+│   │   └── event.json
+│   ├── source_B
+│   │   ├── data.json
+│   │   └── event.json
+│   └── source_C
+├── logs
+│   └── data_transformation_pipeline.log
+├── main.py
+├── project_structure.txt
+├── requirements.txt
+├── schema.txt
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-38.pyc
+│   ├── aws
+│   │   ├── firehose
+│   │   │   └── __init__.py
+│   │   └── l_ambda
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-38.pyc
+│   │       │   └── kinesis_transformer_lambda.cpython-38.pyc
+│   │       └── kinesis_transformer_lambda.py
+│   ├── connectors
+│   │   ├── __init__.py
+│   │   ├── source_A_connector.py
+│   │   ├── source_B_connector.py
+│   │   └── source_C_connector.py
+│   ├── mappers
+│   │   ├── __init__.py
+│   │   ├── product1_mapper.py
+│   │   └── product2_mapper.py
+│   ├── pipeline
+│   ├── storage
+│   │   ├── __init__.py
+│   │   ├── source_A_storage.py
+│   │   ├── source_B_storage.py
+│   │   └── source_C_storage.py
+│   ├── transformers
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   ├── source_A_transformer.cpython-38.pyc
+│   │   │   └── source_B_transformer.cpython-38.pyc
+│   │   ├── source_A_transformer.py
+│   │   ├── source_B_transformer.py
+│   │   └── source_C_transformer.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-38.pyc
+│       │   ├── data_preparer.cpython-38.pyc
+│       │   ├── logger.cpython-38.pyc
+│       │   └── utils.cpython-38.pyc
+│       ├── data_preparer.py
+│       ├── logger.py
+│       └── utils.py
+└── tests
+    ├── __init__.py
+    ├── __pycache__
+    │   └── test_source_A_transformer.cpython-38-pytest-7.3.1.pyc
+    ├── test_lambda_locally.py
+    └── test_source_A_transformer.py
+
+25 directories, 57 files

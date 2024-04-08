@@ -1,0 +1,5 @@
+#for python files
+__pycache__/
+*.pyc
+
+# For virtual envs eg: venv/  env/ .env
